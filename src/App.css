@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +31,39 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.calendar-item{
+  background: #039be5;
+  color: #fff;
+  margin: 0.5rem 0;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.calendar-link{
+  text-decoration: none;
+}
+
+.event-title{
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.event-times{
+  color: #fff;
+  font-size: 1rem;
+}
+
+.email-item{
+  background-color: cornflowerblue;
+  color: #fff;
+  margin: 0.5rem 0;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+
+.main-wrapper{
+  display: grid;
+  grid-template-columns: 50% 50%;
 }
